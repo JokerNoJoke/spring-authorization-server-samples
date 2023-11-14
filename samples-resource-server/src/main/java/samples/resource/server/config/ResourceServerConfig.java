@@ -9,7 +9,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @EnableWebSecurity
 @Configuration(proxyBeanMethods = false)
-public class Oauth2ResourceServerConfig {
+public class ResourceServerConfig {
 
     // @formatter:off
 	@Bean
